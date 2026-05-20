@@ -35,7 +35,7 @@ def stress_checker():
         print("Recommendation: Reduce workload immediately")
     elif state == "BALANCED":
         print("Moderate stress → balanced decision-making mode active")
-        print("⚖️ Recommendation: Maintain structure, avoid overload")
+        print("Recommendation: Maintain structure, avoid overload")
     else:
         print("Low stress → system optimises for long-term productivity")
         print("Recommendation: Focus on efficiency and planning")
