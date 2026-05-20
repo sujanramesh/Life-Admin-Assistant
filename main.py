@@ -19,9 +19,9 @@ def display_menu():
     print("SYSTEM INSIGHT: Decisions adapt dynamically based on stress level")
 
     print("-----------------------------------")
-    print("1. Decision Helper")
+    print("1. Mental Load Checker")
     print("2. Task Prioritiser")
-    print("3. Mental Load Checker")
+    print("3. Decision helper")
     print("4. View Logs")
     print("5. Exit")
 
@@ -37,7 +37,7 @@ def main():
         display_menu()
         choice = input("Enter choice (1-5): ").strip()
 
-        if choice == "3":
+        if choice == "1":
             result = stress_checker()
 
             system_state["stress"] = result["stress_score"]
@@ -61,7 +61,7 @@ def main():
             )
             update_state(result)
 
-        elif choice == "1":
+        elif choice == "3":
             if system_state["stress"] is None:
                 print("Please run Stress Checker first.")
                 continue
