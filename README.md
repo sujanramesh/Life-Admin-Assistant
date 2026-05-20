@@ -9,15 +9,16 @@ The system simulates real-life decision-making by adjusting recommendations base
 
 ## 🚀 Features
 
-### 1. Decision Helper
-- Evaluates multiple options
-- Uses weighted scoring system:
-  - importance
-  - urgency
-  - effort
-  - long-term benefit
-- Adjusts weights based on system mode
-  
+### 1. Mental Load Checker
+- Calculates stress score based on:
+  - stress level
+  - sleep hours
+  - workload
+- Dynamically assigns system mode:
+  - SURVIVAL
+  - BALANCED
+  - OPTIMISED
+
 ---
 
 ### 2. Task Prioritiser
@@ -29,16 +30,15 @@ The system simulates real-life decision-making by adjusting recommendations base
 - Sorts tasks in order of priority
 
 ---
-
-### 3. Mental Load Checker
-- Calculates stress score based on:
-  - stress level
-  - sleep hours
-  - workload
-- Dynamically assigns system mode:
-  - SURVIVAL
-  - BALANCED
-  - OPTIMISED
+ 
+### 3. Decision Helper
+- Evaluates multiple options
+- Uses weighted scoring system:
+  - importance
+  - urgency
+  - effort
+  - long-term benefit
+- Adjusts weights based on system mode
     
 ---
 
