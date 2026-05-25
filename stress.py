@@ -5,7 +5,7 @@ from utils import get_valid_input
 def get_mode(score):
     if score >= 8:
         return "SURVIVAL"
-    elif score >= 5:
+    elif score >= 5 and score<8:
         return "BALANCED"
     return "OPTIMISED"
 
